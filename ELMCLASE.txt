@@ -1,0 +1,12 @@
+comp f g x = g (f x )
+
+
+duplicar ns = case ns of 
+    [] -> []
+    x::xs -> 2*x :: duplicar xs
+
+negar ns = case ns of 
+    [] -> []
+    x::xs -> not x :: negar xs
+    
+
