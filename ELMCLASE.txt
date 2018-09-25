@@ -10,3 +10,4 @@ negar ns = case ns of
     x::xs -> not x :: negar xs
     
 
+lolo
