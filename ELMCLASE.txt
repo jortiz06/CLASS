@@ -11,3 +11,8 @@ negar ns = case ns of
     
 
 lolasasasso
+contador (a1)(b1)(Cero)
+contador a1 b1 c1 =
+if a1== (Suc(Cero))  && b1 == (Suc(Cero)) then ((Suc c1, Cero))
+    else if resta a1 b1 == Cero then (b1, c1)
+    else contador (resta a1 b1) (b1) (Suc c1) 
