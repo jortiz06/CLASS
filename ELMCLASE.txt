@@ -16,3 +16,45 @@ contador a1 b1 c1 =
 if a1== (Suc(Cero))  && b1 == (Suc(Cero)) then ((Suc c1, Cero))
     else if resta a1 b1 == Cero then (b1, c1)
     else contador (resta a1 b1) (b1) (Suc c1) 
+
+
+
+
+
+type Resultado = si (List Char + (List Char) | No
+buscarsuma : List Char -] Resultado
+buscarmult : List Char -[ Resultado
+
+parearAux chars =
+	case buscarMult chars of
+	Si izq der -[ Mult (parsearAux izq) (parsearAux der)
+	No -[ case buscarsuma chars of
+	Si izq der -[ Suma (parsearAux izq) (parsearAux der)
+	no -[ Valor (String.toInt chars)
+
+
+matrices de rotacion
+
+pattern machine
+desconstruir
+
+filtrar : (a -> Bool) -> List a -> List a
+filtrar filtro valores = 
+    case valores of 
+        [] -> [] 
+        x::xs -> 
+
+
+
+
+agregarAux valor filtro resto 
+    if resultado 
+    then valor :: filtrar filtro valor
+    else filtrar filtro valor  
+
+
+canvas
+
+moveto
+lineto
+rectto
